@@ -1,0 +1,37 @@
+<resources>
+        <string name="app_name">Tarea02_BLL</string>
+        <string name="character_image">Imagen del personaje</string>
+
+        <!-- Textos para el menú y el diálogo de Acerca de -->
+        <string name="about_menu">Acerca de...</string>
+        <string name="about_title">Acerca de esta aplicación</string>
+        <string name="about_message">Aplicación desarrollada por Bernardo Luque Lafuente. Versión 1.0.</string>
+
+        <!-- Mario -->
+        <string name="mario_name">Mario</string>
+        <string name="mario_description">Un fontanero cuántico, capaz de alterar la realidad con su bigote.</string>
+        <string name="mario_abilities">Domina el salto temporal, a veces deja pequeños universos paralelos en sus tuberías.</string>
+
+        <!-- Luigi -->
+        <string name="luigi_name">Luigi</string>
+        <string name="luigi_description">El eterno segundo, con una habilidad secreta para comunicarse con los fantasmas.</string>
+        <string name="luigi_abilities">Puede invocar una corriente de aire astral, ideal para deslizarse y evitar a los enemigos más viscosos.</string>
+
+        <!-- Peach -->
+        <string name="peach_name">Peach</string>
+        <string name="peach_description">Princesa, sí, pero también una experta en la ciencia de la distracción floral.</string>
+        <string name="peach_abilities">Genera campos de fuerza de pétalos de cerezo, lo que la hace casi intocable en un día de sol.</string>
+
+        <!-- Toad -->
+        <string name="toad_name">Toad</string>
+        <string name="toad_description">Un micólogo con la habilidad de hacer crecer setas de efecto sorpresa.</string>
+        <string name="toad_abilities">Es capaz de esparcir esporas que alteran la percepción de sus rivales y hacer que se muevan más lento.</string>
+
+        <!-- Textos para DetailActivity-->
+        <string name="no_disponible">No disponible</string>
+
+        <!-- Textos para Bienvenida -->
+        <string name="welcome_message">Bienvenidos al mundo de Mario</string>
+        <string name="toast_character_selected">Se ha seleccionado el personaje %s</string>
+
+</resources>

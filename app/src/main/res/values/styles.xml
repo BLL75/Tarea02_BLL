@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.Tarea02_BLL" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1A73E8</item> <!-- Azul Accesible -->
+        <item name="colorPrimaryVariant">#1967D2</item> <!-- Azul más oscuro -->
+        <item name="colorSecondary">#F9AB00</item> <!-- Amarillo Naranja Accesible -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <!-- Tema para la pantalla Splash -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+    </style>
+
+    <!-- Estilo para imagen de personaje -->
+    <style name="ImageWithShadow">
+        <item name="android:elevation">16dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Estilo para TextViews de título -->
+    <style name="TextViewTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blue_accent</item> <!-- Azul de Contraste -->
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Estilo para TextViews de cuerpo -->
+    <style name="TextViewBody">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/dark_gray</item> <!-- Gris Oscuro Accesible -->
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Estilo para Habilidades -->
+    <style name="TextViewAbilities">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/blue_accent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Estilo para el texto de los nombres en el RecyclerView -->
+    <style name="CharacterNameTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Estilo para la descripción de los personajes en el RecyclerView -->
+    <style name="CharacterDescriptionTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <!-- Estilo para el texto principal de la pantalla de detalle del personaje -->
+    <style name="DetailMainTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Estilo para el texto secundario de la pantalla de detalle del personaje -->
+    <style name="DetailSecondaryTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores Primarios -->
+    <color name="colorPrimary">#1A73E8</color> <!-- Azul accesible -->
+    <color name="colorPrimaryVariant">#1967D2</color> <!-- Azul más oscuro -->
+    <color name="colorSecondary">#F9AB00</color> <!-- Amarillo naranja accesible -->
+
+    <!-- Colores de Fondo -->
+    <color name="splash_background">#FFFFFF</color> <!-- Fondo blanco para Splash -->
+    <color name="windowBackground">#FFFFFF</color> <!-- Fondo general de la aplicación -->
+
+    <!-- Colores de Texto -->
+    <color name="black">#000000</color> <!-- Negro para textos principales -->
+    <color name="white">#FFFFFF</color> <!-- Blanco para textos en fondo oscuro -->
+    <color name="dark_gray">#3C4043</color> <!-- Gris oscuro para contraste -->
+    <color name="gray">#757575</color> <!-- Gris estándar para subtítulos -->
+
+    <!-- Colores Accesibles -->
+    <color name="blue_accent">#1A73E8</color> <!-- Azul accesible para énfasis -->
+    <color name="purple_accent">#6200EE</color> <!-- Púrpura como alternativo opcional -->
+
+</resources>
